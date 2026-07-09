@@ -677,6 +677,11 @@ body {
 a {
   transition: color 0.6s;
 }
+*:focus-visible {
+  outline: red solid 2px !important;
+  outline-offset: 2px !important;
+  transition: outline 0.2s ease-in-out;
+}
 .cid-s48OLK6784 {
   z-index: 1000;
   width: 100%;
@@ -1042,6 +1047,24 @@ a {
   .cid-s48MCQYojq .mbr-section-title,
   .cid-s48MCQYojq .mbr-section-btn,
   .cid-s48MCQYojq .mbr-text {
+    text-align: center;
+  }
+}
+.cid-voNEfaMY0k {
+  background-image: url("../../../assets/images/background7.jpg");
+}
+.cid-voNEfaMY0k .mbr-section-title {
+  text-align: center;
+}
+.cid-voNEfaMY0k .mbr-text,
+.cid-voNEfaMY0k .mbr-section-btn {
+  color: #232323;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .cid-voNEfaMY0k .mbr-section-title,
+  .cid-voNEfaMY0k .mbr-section-btn,
+  .cid-voNEfaMY0k .mbr-text {
     text-align: center;
   }
 }
